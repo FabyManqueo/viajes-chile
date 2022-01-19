@@ -1,5 +1,8 @@
 .navbar{
-    background-color:aqua;
+    background-image: url("../img/carousel1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     position: fixed;
     width: 100vw;
     z-index: 1;
@@ -10,15 +13,31 @@
     font-size: 40px;
 
 }
-/*body{
-    font-family: Helvetica;
-}*/
+body{
+    background-color: black;
+}
+h1,p{
+    color: white;
+    text-align: center;
+}
+.card-text{
+    text-align: left;
+}
+.card-body{
+    background-color:#00c5e4 ;
+}
 
-
-
+.iconos{
+    background-color: #00c5e4 ;
+    color: white;
+}
+.btn{
+    background-color:#00c5e4;
+    color: white;
+}
 
 footer{
-    background-color: aqua;
+    background-color: #00c5e4;
     color: white;
 }
 
