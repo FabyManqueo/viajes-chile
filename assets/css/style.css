@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: auto !important;
+}
 .navbar{
     background-image: url("../img/carousel1.jpg");
     background-repeat: no-repeat;
@@ -7,21 +10,32 @@
     width: 100vw;
     z-index: 1;
 }
-.navbar-brand{
-    font-family: 'Oswald';
+.nav-link{
+    font-family: "Cabin";
     font-weight: 700;
-    font-size: 40px;
+    font-size: 22px
 
 }
+
 body{
     background-color: black;
 }
-h1,p{
+h1,h6,p{
     color: white;
-    text-align: center;
+    /*text-align: center;*/
+}
+/*p{
+    font-family: "Lato";
+    font-weight: 300;
+}*/
+h3,h6,h1{
+    font-family: "Cabin";
+    font-weight: 700;
 }
 .card-text{
     text-align: left;
+    font-family: "Lato";
+    font-weight: 300;
 }
 .card-body{
     background-color:#00c5e4 ;
@@ -34,10 +48,11 @@ h1,p{
 .btn{
     background-color:#00c5e4;
     color: white;
+    text-decoration: none;
 }
 
 footer{
     background-color: #00c5e4;
-    color: white;
+    /*color: white;*/
 }
 
