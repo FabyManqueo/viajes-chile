@@ -14,20 +14,17 @@ html{
     font-family: "Cabin";
     font-weight: 700;
     font-size: 22px
-
 }
 
 body{
     background-color: black;
 }
+
 h1,h6,p{
     color: white;
-    /*text-align: center;*/
+    
 }
-/*p{
-    font-family: "Lato";
-    font-weight: 300;
-}*/
+
 h3,h6,h1{
     font-family: "Cabin";
     font-weight: 700;
